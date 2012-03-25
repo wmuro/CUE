@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDB4DC4151F91E0000FD0F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB4DC3151F91E0000FD0F0 /* UIKit.framework */; };
+		AFDB4DC6151F91E0000FD0F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB4DC5151F91E0000FD0F0 /* Foundation.framework */; };
+		AFDB4DC8151F91E0000FD0F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB4DC7151F91E0000FD0F0 /* CoreGraphics.framework */; };
+		AFDB4DCE151F91E0000FD0F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DCC151F91E0000FD0F0 /* InfoPlist.strings */; };
+		AFDB4DD0151F91E0000FD0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB4DCF151F91E0000FD0F0 /* main.m */; };
+		AFDB4DD4151F91E0000FD0F0 /* CUEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB4DD3151F91E0000FD0F0 /* CUEAppDelegate.m */; };
+		AFDB4DD7151F91E0000FD0F0 /* CUEFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB4DD6151F91E0000FD0F0 /* CUEFirstViewController.m */; };
+		AFDB4DD9151F91E0000FD0F0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DD8151F91E0000FD0F0 /* first.png */; };
+		AFDB4DDB151F91E0000FD0F0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DDA151F91E0000FD0F0 /* first@2x.png */; };
+		AFDB4DDE151F91E0000FD0F0 /* CUESecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB4DDD151F91E0000FD0F0 /* CUESecondViewController.m */; };
+		AFDB4DE0151F91E0000FD0F0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DDF151F91E0000FD0F0 /* second.png */; };
+		AFDB4DE2151F91E0000FD0F0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DE1151F91E0000FD0F0 /* second@2x.png */; };
+		AFDB4DE5151F91E0000FD0F0 /* CUEFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DE3151F91E0000FD0F0 /* CUEFirstViewController.xib */; };
+		AFDB4DE8151F91E0000FD0F0 /* CUESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4DE6151F91E0000FD0F0 /* CUESecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFDB4DBF151F91E0000FD0F0 /* cue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB4DC3151F91E0000FD0F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFDB4DC5151F91E0000FD0F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFDB4DC7151F91E0000FD0F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFDB4DCB151F91E0000FD0F0 /* cue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cue-Info.plist"; sourceTree = "<group>"; };
+		AFDB4DCD151F91E0000FD0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFDB4DCF151F91E0000FD0F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB4DD1151F91E0000FD0F0 /* cue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cue-Prefix.pch"; sourceTree = "<group>"; };
+		AFDB4DD2151F91E0000FD0F0 /* CUEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUEAppDelegate.h; sourceTree = "<group>"; };
+		AFDB4DD3151F91E0000FD0F0 /* CUEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUEAppDelegate.m; sourceTree = "<group>"; };
+		AFDB4DD5151F91E0000FD0F0 /* CUEFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUEFirstViewController.h; sourceTree = "<group>"; };
+		AFDB4DD6151F91E0000FD0F0 /* CUEFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUEFirstViewController.m; sourceTree = "<group>"; };
+		AFDB4DD8151F91E0000FD0F0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		AFDB4DDA151F91E0000FD0F0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		AFDB4DDC151F91E0000FD0F0 /* CUESecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUESecondViewController.h; sourceTree = "<group>"; };
+		AFDB4DDD151F91E0000FD0F0 /* CUESecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUESecondViewController.m; sourceTree = "<group>"; };
+		AFDB4DDF151F91E0000FD0F0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		AFDB4DE1151F91E0000FD0F0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		AFDB4DE4151F91E0000FD0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUEFirstViewController.xib; sourceTree = "<group>"; };
+		AFDB4DE7151F91E0000FD0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUESecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDB4DBC151F91E0000FD0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB4DC4151F91E0000FD0F0 /* UIKit.framework in Frameworks */,
+				AFDB4DC6151F91E0000FD0F0 /* Foundation.framework in Frameworks */,
+				AFDB4DC8151F91E0000FD0F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDB4DB4151F91DF000FD0F0 = {
+			isa = PBXGroup;
+			children = (
+				AFDB4DC9151F91E0000FD0F0 /* cue */,
+				AFDB4DC2151F91E0000FD0F0 /* Frameworks */,
+				AFDB4DC0151F91E0000FD0F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDB4DC0151F91E0000FD0F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB4DBF151F91E0000FD0F0 /* cue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDB4DC2151F91E0000FD0F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB4DC3151F91E0000FD0F0 /* UIKit.framework */,
+				AFDB4DC5151F91E0000FD0F0 /* Foundation.framework */,
+				AFDB4DC7151F91E0000FD0F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFDB4DC9151F91E0000FD0F0 /* cue */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB4DD2151F91E0000FD0F0 /* CUEAppDelegate.h */,
+				AFDB4DD3151F91E0000FD0F0 /* CUEAppDelegate.m */,
+				AFDB4DD5151F91E0000FD0F0 /* CUEFirstViewController.h */,
+				AFDB4DD6151F91E0000FD0F0 /* CUEFirstViewController.m */,
+				AFDB4DD8151F91E0000FD0F0 /* first.png */,
+				AFDB4DDA151F91E0000FD0F0 /* first@2x.png */,
+				AFDB4DDC151F91E0000FD0F0 /* CUESecondViewController.h */,
+				AFDB4DDD151F91E0000FD0F0 /* CUESecondViewController.m */,
+				AFDB4DDF151F91E0000FD0F0 /* second.png */,
+				AFDB4DE1151F91E0000FD0F0 /* second@2x.png */,
+				AFDB4DE3151F91E0000FD0F0 /* CUEFirstViewController.xib */,
+				AFDB4DE6151F91E0000FD0F0 /* CUESecondViewController.xib */,
+				AFDB4DCA151F91E0000FD0F0 /* Supporting Files */,
+			);
+			path = cue;
+			sourceTree = "<group>";
+		};
+		AFDB4DCA151F91E0000FD0F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB4DCB151F91E0000FD0F0 /* cue-Info.plist */,
+				AFDB4DCC151F91E0000FD0F0 /* InfoPlist.strings */,
+				AFDB4DCF151F91E0000FD0F0 /* main.m */,
+				AFDB4DD1151F91E0000FD0F0 /* cue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDB4DBE151F91E0000FD0F0 /* cue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB4DEB151F91E0000FD0F0 /* Build configuration list for PBXNativeTarget "cue" */;
+			buildPhases = (
+				AFDB4DBB151F91E0000FD0F0 /* Sources */,
+				AFDB4DBC151F91E0000FD0F0 /* Frameworks */,
+				AFDB4DBD151F91E0000FD0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cue;
+			productName = cue;
+			productReference = AFDB4DBF151F91E0000FD0F0 /* cue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDB4DB6151F91DF000FD0F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AFDB4DB9151F91DF000FD0F0 /* Build configuration list for PBXProject "cue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFDB4DB4151F91DF000FD0F0;
+			productRefGroup = AFDB4DC0151F91E0000FD0F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDB4DBE151F91E0000FD0F0 /* cue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDB4DBD151F91E0000FD0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB4DCE151F91E0000FD0F0 /* InfoPlist.strings in Resources */,
+				AFDB4DD9151F91E0000FD0F0 /* first.png in Resources */,
+				AFDB4DDB151F91E0000FD0F0 /* first@2x.png in Resources */,
+				AFDB4DE0151F91E0000FD0F0 /* second.png in Resources */,
+				AFDB4DE2151F91E0000FD0F0 /* second@2x.png in Resources */,
+				AFDB4DE5151F91E0000FD0F0 /* CUEFirstViewController.xib in Resources */,
+				AFDB4DE8151F91E0000FD0F0 /* CUESecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDB4DBB151F91E0000FD0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB4DD0151F91E0000FD0F0 /* main.m in Sources */,
+				AFDB4DD4151F91E0000FD0F0 /* CUEAppDelegate.m in Sources */,
+				AFDB4DD7151F91E0000FD0F0 /* CUEFirstViewController.m in Sources */,
+				AFDB4DDE151F91E0000FD0F0 /* CUESecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFDB4DCC151F91E0000FD0F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB4DCD151F91E0000FD0F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFDB4DE3151F91E0000FD0F0 /* CUEFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB4DE4151F91E0000FD0F0 /* en */,
+			);
+			name = CUEFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		AFDB4DE6151F91E0000FD0F0 /* CUESecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB4DE7151F91E0000FD0F0 /* en */,
+			);
+			name = CUESecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDB4DE9151F91E0000FD0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFDB4DEA151F91E0000FD0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDB4DEC151F91E0000FD0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cue/cue-Prefix.pch";
+				INFOPLIST_FILE = "cue/cue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFDB4DED151F91E0000FD0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cue/cue-Prefix.pch";
+				INFOPLIST_FILE = "cue/cue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDB4DB9151F91DF000FD0F0 /* Build configuration list for PBXProject "cue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB4DE9151F91E0000FD0F0 /* Debug */,
+				AFDB4DEA151F91E0000FD0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDB4DEB151F91E0000FD0F0 /* Build configuration list for PBXNativeTarget "cue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB4DEC151F91E0000FD0F0 /* Debug */,
+				AFDB4DED151F91E0000FD0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDB4DB6151F91DF000FD0F0 /* Project object */;
+}
